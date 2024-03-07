@@ -1,0 +1,25 @@
+{
+  "name": "@nobush/server-only",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "node"
+  ],
+  "files": [
+    "index.js",
+    "empty.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nobu-sh/server-only.git"
+  },
+  "exports": {
+    ".": {
+      "node": "./empty.js",
+      "react-server": "./empty.js",
+      "default": "./index.js"
+    }
+  }
+}
